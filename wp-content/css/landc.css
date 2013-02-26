@@ -1,0 +1,115 @@
+/* *****GENERAL STYLING***** */
+/* IE10 Consumer Preview */ 
+body {background-image: -ms-linear-gradient(top, #000000 0%, #444444 100%);}
+/* Mozilla Firefox */ 
+body {background-image: -moz-linear-gradient(top, #000000 0%, #444444 100%);}
+/* Opera */ 
+body {background-image: -o-linear-gradient(top, #000000 0%, #444444 100%);}
+/* Webkit (Safari/Chrome 10) */ 
+body {background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #444444));}
+/* Webkit (Chrome 11+) */ 
+body {background-image: -webkit-linear-gradient(top, #000000 0%, #444444 100%);}
+/* W3C Markup, IE10 Release Preview */ 
+body {background-image: linear-gradient(to bottom, #000000 0%, #444444 100%);}
+body {padding:0px !important; min-width:1000px;}
+#page {margin-top:0px !important; min-width:1000px; display:none;}
+.one-column #page {max-width:1000px;}
+#main {min-height:800px; padding-top:50px;}
+
+
+/* *****HEADER***** */
+#branding {margin-bottom:20px; width:100%; position:relative; float:left; margin-bottom:0px;}
+#logo-cont {position:relative; float:left; margin-top:10px; margin-bottom:20px; margin-left:50px;}
+#logo #logo-img {}
+#header-login {position:relative; float:right; margin-right:50px; margin-top:10px;}
+
+#branding #access {background:none; border:none; width:75%; clear:none; margin-top:85px; float:right;}
+#access div {margin:0px;}
+#branding #access ul li {border-right:1px solid #fff; height:20px; width:16%; padding-left:4%; padding-right:4%;}
+#branding #access a {background:none; height:20px; line-height: 1.5em; text-align:center; padding:0px; color:#fff;}
+#branding #access a:hover {color:#fff; border-bottom:15px solid #fff; text-decoration:none;}
+#access .current-menu-item > a, #access .current-menu-ancestor > a, 
+	#access .current_page_item > a, #access .current_page_ancestor > a {background:none; height:20px; line-height: 1.5em; text-align:center;}
+#access .current-menu-item > a:hover, #access .current-menu-ancestor > a:hover, 
+	#access .current_page_item > a:hover, #access .current_page_ancestor > a:hover {background:none; text-decoration:underline; color:#fff;}
+#branding #access ul li#menu-item-10 {border-right:none;}
+#access .current-menu-item > a, #access .current-menu-ancestor > a, #access .current_page_item > a, #access .current_page_ancestor > a {text-transform:uppercase;}
+
+.flexible-frontend-login .ffl-popup-content {background:#000 !important;}
+
+#header-divider {position:relative; float:left; bottom:0px; left:50px; max-width:900px; width:100%; height:1px; background:#efefef;}
+
+
+/* *****FOOTER***** */
+footer {background:#000;}
+#footer-cont {position:relative; float:left; width:100%; background:#000; height:50px; margin-bottom:20px;
+	border-top:1px solid #999; padding-top:5px;}
+#footer-cont .footer-links {position:relative; float:left; width:15%; height:50px;}
+#footer-cont .footer-links a {position:relative; float:left; width:100%; font-size:12px; text-align:center;}
+#footer-cont .footer-links a.facebook {margin-top:10px;}
+#footer-cont .footer-links a.twitter {margin-top:15px;}
+#footer-cont .footer-links a.twitter .t-grey, #footer-cont .footer-links a.facebook .f-grey {display:none;}
+#footer-cont a.copyright {width:250px; font-size:10px; position:relative; float:right; margin-right:50px; margin-top:20px;}
+#footer-cont a.copyright  {text-decoration:none;}
+#footer-cont .footer-links a:hover {text-decoration:underline;}
+
+
+/* *****HOMEPAGE***** */
+.page-template-homepage-php #content {max-width:400px; min-width:300px; font-size:14px; position:relative; float:left; 
+	text-align:center; margin:0px; margin-left:50px;}
+.page-template-homepage-php #content article {padding-top:0px;}
+.page-template-homepage-php #content article .entry-header {display:none;}
+
+#main #content .entry-content {color:#fff; padding-top:0px;}
+
+#hp-slider {position:relative; float:left; width:450px; margin-left:50px; text-align:center;}
+.mainTable, .mainTable #mainscollertd, .mainTable #mainscollertd .mainSliderDiv {width:340px !important;}
+.page-template-homepage-php #content article .wpuf-attachments {display:none;}
+.portfolio-slideshow .slideshow-content img {padding:7px !important; border:1px ridge #fff !important;}
+.slideshow-wrapper .pscarousel {padding-left:18px;}
+
+
+/* *****SERVICES***** */
+.page-template-services-php #content article {padding:0px; margin-top:0px;}
+.page-template-services-php #content article .entry-header {display:none;}
+.page-template-services-php #content div {position:relative; float:left;}
+.page-template-services-php #content #services-cont {width:800px; margin-left:24px;}
+.page-template-services-php #content #services-cont .service-title {margin-left:25px; font-size:24px; height:45px; padding:0px; margin-top:20px;}
+.page-template-services-php #content #services-cont .entry-content {width:800px; height:200px; margin-bottom:20px;}
+.page-template-services-php #content #services-cont .entry-content .wpuf-attachments {display:none;}
+.page-template-services-php #content #services-cont .entry-content .service-img {height:100px; padding-top:50px; padding-bottom:50px; width:200px; 
+	text-align:center; background:#333;}
+.page-template-services-php #content #services-cont .entry-content .service-img img {position:relative;}
+.page-template-services-php #content #services-cont .entry-content .service-content {width:575px; margin-left:25px; height:145px;}
+
+
+
+/* *****GALLERY***** */
+.page-template-gallery-php #content article {padding:0px; margin-top:0px;}
+.page-template-gallery-php #content article .entry-header {display:none;}
+.page-template-gallery-php #content div {position:relative; float:left;}
+.page-template-gallery-php #content .gallery-cont {width:400px; padding-bottom:50px;}
+.page-template-gallery-php #content #photo-gallery {margin-left:40px;}
+.page-template-gallery-php #content .gallery-cont .gallery-col-title {font-size:24px; color:#fff; width:100%; text-align:center; margin-bottom:20px;}
+.page-template-gallery-php #content .gallery-cont .gallery-entry {width:200px; height:200px; margin-bottom:20px;}
+.page-template-gallery-php #content .gallery-cont .gallery-entry .gallery-img {height:150px; width:190px;}
+.page-template-gallery-php #content .gallery-cont .gallery-entry .gallery-img img {width:180px; height:140px; padding:5px;}
+.page-template-gallery-php #content .gallery-cont .gallery-entry .gallery-img-title {height:40px; width:180px; padding:5px; text-align:center; color:#fff; font-size:12px;}
+
+
+
+/* *****CONTACT***** */
+.page-template-contact-php #content {max-width:400px; min-width:300px; font-size:14px; position:relative; float:left; 
+	text-align:center; margin:0px; margin-left:50px; margin-top:50px;}
+.page-template-contact-php #content article {padding-top:0px;}
+.page-template-contact-php #content article .entry-header {display:none;}
+
+.page-template-contact-php #map-cont {position:relative; float:left; width:450px; margin-left:50px; text-align:center; height:550px;
+	border:1px solid #fff; padding:5px; margin-bottom:50px;}
+
+
+
+
+
+
+

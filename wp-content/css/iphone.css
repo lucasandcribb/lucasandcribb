@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px) {
+	#content {width:350px; margin-left:0px;}
+	#hp-slider {width:400px; margin-left:0px;}
+
+	.page-template-services-php .entry-content {width:600px;}
+	.page-template-services-php .service-content {width:350px;}
+}
+
+@media screen and (max-width:320px) {
+	#content {width:350px; margin-left:0px;}
+	#hp-slider {width:400px; margin-left:0px;}
+
+	.page-template-services-php .entry-content {width:600px;}
+	.page-template-services-php .service-content {width:350px;}
+}
