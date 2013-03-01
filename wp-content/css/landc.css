@@ -1,16 +1,16 @@
 /* *****GENERAL STYLING***** */
 /* IE10 Consumer Preview */ 
-body {background-image: -ms-linear-gradient(top, #000000 0%, #444444 100%);}
+body {background-image: -ms-linear-gradient(top, #333 0%, #444444 100%);}
 /* Mozilla Firefox */ 
-body {background-image: -moz-linear-gradient(top, #000000 0%, #444444 100%);}
+body {background-image: -moz-linear-gradient(top, #333 0%, #444444 100%);}
 /* Opera */ 
-body {background-image: -o-linear-gradient(top, #000000 0%, #444444 100%);}
+body {background-image: -o-linear-gradient(top, #333 0%, #444444 100%);}
 /* Webkit (Safari/Chrome 10) */ 
-body {background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #444444));}
+body {background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333), color-stop(1, #444444));}
 /* Webkit (Chrome 11+) */ 
-body {background-image: -webkit-linear-gradient(top, #000000 0%, #444444 100%);}
+body {background-image: -webkit-linear-gradient(top, #333 0%, #444444 100%);}
 /* W3C Markup, IE10 Release Preview */ 
-body {background-image: linear-gradient(to bottom, #000000 0%, #444444 100%);}
+body {background-image: linear-gradient(to bottom, #333 0%, #444444 100%);}
 body {padding:0px !important; min-width:1000px;}
 #page {margin-top:0px !important; min-width:1000px; display:none;}
 .one-column #page {max-width:1000px;}
@@ -75,7 +75,7 @@ footer {background:#000;}
 .page-template-services-php #content article .entry-header {display:none;}
 .page-template-services-php #content div {position:relative; float:left;}
 .page-template-services-php #content #services-cont {width:800px; margin-left:24px;}
-.page-template-services-php #content #services-cont .service-title {margin-left:25px; font-size:24px; height:45px; padding:0px; margin-top:20px;}
+.page-template-services-php #content #services-cont .service-title {margin-left:25px; font-size:24px; height:45px; padding:0px; margin-top:0px;}
 .page-template-services-php #content #services-cont .entry-content {width:800px; height:200px; margin-bottom:20px;}
 .page-template-services-php #content #services-cont .entry-content .wpuf-attachments {display:none;}
 .page-template-services-php #content #services-cont .entry-content .service-img {height:100px; padding-top:50px; padding-bottom:50px; width:200px; 

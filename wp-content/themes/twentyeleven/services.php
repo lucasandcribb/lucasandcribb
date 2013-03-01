@@ -17,7 +17,7 @@ Template Name: Services
 				   
 
 			<div id="services-cont">
-				<?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => 5, 'order' => 'ASC' ) ); ?>
+				<?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => 15, 'order' => 'ASC' ) ); ?>
 
 				<?php while ( $loop->have_posts() ) : $loop->the_post(); 
 						$url = get_permalink();
