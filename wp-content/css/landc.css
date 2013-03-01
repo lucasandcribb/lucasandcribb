@@ -25,9 +25,10 @@ body {padding:0px !important; min-width:1000px;}
 
 #branding #access {background:none; border:none; width:75%; clear:none; margin-top:85px; float:right;}
 #access div {margin:0px;}
-#branding #access ul li {border-right:1px solid #fff; height:20px; width:16%; padding-left:4%; padding-right:4%;}
-#branding #access a {background:none; height:20px; line-height: 1.5em; text-align:center; padding:0px; color:#fff;}
-#branding #access a:hover {color:#fff; border-bottom:15px solid #fff; text-decoration:none;}
+#branding #access ul li {border-right:1px solid #fff; height:24px; width:16%; padding-left:4%; padding-right:4%;}
+#branding #access a {background:none; height:20px; line-height: 1.5em; text-align:center; padding:0px; color:#fff; font-family:'Hoeffler Text';
+	font-size:20px; height:26px;}
+#branding #access a:hover {color:#000; /*border-bottom:15px solid #fff;*/ text-decoration:none; background:#fff;}
 #access .current-menu-item > a, #access .current-menu-ancestor > a, 
 	#access .current_page_item > a, #access .current_page_ancestor > a {background:none; height:20px; line-height: 1.5em; text-align:center;}
 #access .current-menu-item > a:hover, #access .current-menu-ancestor > a:hover, 
