@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-	$('#page').fadeIn(1000);
+	$('body').fadeIn(1000);
+
 
 	$('.service-content .wpuf-attachments').each(function() {
 		$(this).remove();

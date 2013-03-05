@@ -77,6 +77,11 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<div id="header-divider"></div>
+
+<div id="header-bg"></div>
+
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
 			<div id="logo-cont">
@@ -89,8 +94,12 @@
 					</a>
 				</div>
 			</div>
-			<div id="header-login">
-				<?php echo do_shortcode('[flexible-frontend-login]'); ?>
+			<div id="header-bg-divider">
+				<img src="/wp-content/images/header/header-bg.png" />
+			</div>
+
+			<div id="header-title">
+				<div class="title-line1">LUCAS &amp CRIBB</div><div class="title-line2">Digital Developers</div>
 			</div>
 
 			<?php
@@ -152,7 +161,7 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</div><!-- #access -->
 
-			<div id="header-divider"></div>
+			
 	</header><!-- #branding -->
 
 
