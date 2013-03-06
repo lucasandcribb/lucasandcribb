@@ -23,4 +23,71 @@ $(document).ready(function() {
 		$('.f-white').show();
 	});
 
+	customSlideshow();
+
 });
+
+function rotate() {
+    $('#imac-slide-buttons #next').click();
+} 
+function customSlideshow() {
+
+	var speed = 10000;
+    var run = setInterval('rotate()', speed);
+
+    $('#slides .current').mouseenter(function() {
+    	clearInterval(run);
+    }).mouseleave(function() {
+    	run = setInterval('rotate()', speed);
+    });
+
+	$('#imac-slideshow #slides li').first().addClass('first');
+	$('#imac-slideshow #slides li').first().addClass('current');
+	$('#imac-slideshow #slides li').last().addClass('last');
+
+	var i = 0;
+	$('#imac-slideshow #slides li').each(function() {
+		i++;
+	});
+
+	$('#next').click(function() {  
+        var currentIndex = parseInt($('#slides .current').attr('ref'));
+        var last = $('#slides .current').hasClass('last');
+        var nextIndex;
+        $('#slides .current').fadeOut();
+        if (last == false) {
+        	$('#slides .current').removeClass('current');
+        	nextIndex = currentIndex + 1;
+        	$('.index-'+nextIndex).addClass('current');
+        	$('.index-'+nextIndex).fadeIn(1500);
+        	
+        } else {
+        	$('#slides .current').removeClass('current');
+        	nextIndex = 0;
+        	$('.index-'+nextIndex).addClass('current');
+        	$('.index-'+nextIndex).fadeIn(1500);
+        }
+    }); 
+
+    // $('#prev').click(function() {  
+    //     var currentIndex = parseInt($('#slides .current').attr('ref'));
+    //     var first = $('#slides .current').hasClass('first');
+    //     var nextIndex;
+    //     $('#slides .current').fadeOut();
+    //     if (first == false) {
+    //     	$('#slides .current').removeClass('current');
+    //     	nextIndex = currentIndex - 1;
+    //     	$('.index-'+nextIndex).addClass('current');
+    //     	$('.index-'+nextIndex).fadeIn(1500);
+        	
+    //     } else {
+    //     	$('#slides .current').removeClass('current');
+    //     	nextIndex = i;
+    //     	$('.index-'+nextIndex).addClass('current');
+    //     	$('.index-'+nextIndex).fadeIn(1500);
+    //     }
+    // }); 
+ 
+}
+
+

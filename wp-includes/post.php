@@ -180,23 +180,49 @@ function create_post_type() {
 
 	$args2 = array(
 		'labels' => array(
-		'name' => __( 'Gallery' ),
-		'singular_name' => __( 'Gallery' )
+		'name' => __( 'iMac Slides' ),
+		'singular_name' => __( 'imac_slide' )
 	),
 		'public' => true,
 		'has_archive' => true,
-		'rewrite' => array('slug' => 'gallery'),
+		'rewrite' => array('slug' => 'imac_slide'),
+		'supports' => array( 'title', 'editor', 'thumbnail', 'price' )
+	);
+
+	$args3 = array(
+		'labels' => array(
+		'name' => __( 'Mobile Slides' ),
+		'singular_name' => __( 'mobile_slide' )
+	),
+		'public' => true,
+		'has_archive' => true,
+		'rewrite' => array('slug' => 'mobile_slide'),
+		'supports' => array( 'title', 'editor', 'thumbnail', 'price' )
+	);
+
+	$args4 = array(
+		'labels' => array(
+		'name' => __( 'Photography Slides' ),
+		'singular_name' => __( 'photo_slide' )
+	),
+		'public' => true,
+		'has_archive' => true,
+		'rewrite' => array('slug' => 'photo_slide'),
 		'supports' => array( 'title', 'editor', 'thumbnail', 'price' )
 	);
 	
 	register_post_type( 'services', $args1);
-	register_post_type( 'gallery', $args2);
+	register_post_type( 'imac_slides', $args2);
+	register_post_type( 'mobile_slides', $args3);
+	register_post_type( 'photo_slides', $args4);
 	// register_post_type( 'history', $args2);
 	
 	// register_taxonomy_for_object_type('post_tag', 'offerings');
 	
 	register_taxonomy_for_object_type('category', 'services');
-	register_taxonomy_for_object_type('category', 'gallery');
+	register_taxonomy_for_object_type('category', 'imac_slides');
+	register_taxonomy_for_object_type('category', 'mobile_slides');
+	register_taxonomy_for_object_type('category', 'photo_slides');
 	
 	register_taxonomy_for_object_type('post_tag', 'page');
 	register_taxonomy_for_object_type('category', 'page');

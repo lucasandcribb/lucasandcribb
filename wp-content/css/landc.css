@@ -2,7 +2,7 @@
 body {padding:0px !important; min-width:1000px; display:none; }
 #page {margin-top:0px !important; min-width:100%; background:#000;}
 .one-column #page {max-width:1200px; min-width:100%}
-#main {min-height:800px; padding-top:50px; max-width:1000px; position:relative; margin:auto;}
+#main {min-height:600px; padding-top:50px; max-width:1000px; position:relative; margin:auto;}
 
 
 /* *****HEADER***** */
@@ -84,6 +84,28 @@ footer {background:#000;}
 .page-template-services-php #content #services-cont .entry-content .service-img img {position:relative;}
 .page-template-services-php #content #services-cont .entry-content .service-content {width:575px; margin-left:25px; height:145px;}
 
+
+
+/* *****OUR WORK***** */
+.page-template-ourwork-php #work-cont {width:900px; position:relative; margin-left:50px;}
+.page-template-ourwork-php .entry-content {position:relative; float:left; width:1000px; margin-bottom:20px;}
+.page-template-ourwork-php .website-slideshow {height:400px; padding-top:0px;}
+.page-template-ourwork-php .website-slideshow #imac {position:absolute; left:0px; top:0px; z-index:5;}
+.page-template-ourwork-php .website-slideshow .imac-img {position:relative; float:left; margin-top:15px; margin-left:20px; 
+	width:415px; height:250px; z-index:1;}
+.page-template-ourwork-php .website-slideshow .imac-slide-caption {position:relative; float:left; height:300px; width:400px; margin-top:25px; margin-left:50px;}
+.page-template-ourwork-php .website-slideshow .imac-slide-caption div {position:relative; float:left;}
+
+#carousel {width:900px; height:400px; margin:0 auto;} 
+#slides {overflow:hidden; position:relative; width:900px; height:400px;}
+#slides ul {position:relative; left:0; top:0; list-style:none; margin:0; padding:0; width:1600px;} 
+#slides li {width:900px; height:400px; float:left; color:#fff;}
+#slides li img {padding:5px;}
+#imac-slide-buttons {display:none; position:absolute; top:-20px; left:200px;}
+
+.imac-title {font-size:22px; font-family:'Hoefler Text';}
+.imac-descr {margin-top:10px; margin-bottom:25px;}
+.imac-link {text-decoration:underline;}
 
 
 /* *****GALLERY***** */
