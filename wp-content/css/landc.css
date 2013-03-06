@@ -151,16 +151,27 @@ footer {background:#000;}
 
 
 /* *****CONTACT***** */
-.page-template-contact-php #content {max-width:400px; min-width:300px; font-size:14px; position:relative; float:left; 
-	text-align:center; margin:0px; margin-left:50px; margin-top:50px;}
+.page-template-contact-php #content {width:400px; font-size:14px; position:relative; float:left; 
+	text-align:center; margin:0px; margin-left:50px; margin-top:0px;}
 .page-template-contact-php #content article {padding-top:0px;}
 .page-template-contact-php #content article .entry-header {display:none;}
 
-.page-template-contact-php #map-cont {position:relative; float:left; width:450px; margin-left:50px; text-align:center; height:550px;
-	border:1px solid #fff; padding:5px; margin-bottom:50px;}
+.contact-title {font-family:'Hoefler Text'; font-size:28px;}
 
+.page-template-contact-php #map-cont, #map_div {position:relative; float:right; width:400px; margin-right:50px; text-align:center; height:550px;
+	border:1px solid #fff; margin-bottom:50px; margin-top:25px;}
 
+#contact-form {position:relative; float:left; background:#333; width:400px; height:350px; margin-top:25px;}
+#contact-form-title {position:relative; float:left; width:100%; text-align:center; color:#fff; font-family:'Hoefler Text'; font-size:26px; margin-top:10px;}
+#contact-form .contact-side {width:175px; margin-top:20px;}
+#contact-form #contact-form-left {position:relative; float:left; margin-left:10px;}
+#contact-form #contact-form-right {position:relative; float:right; margin-right:10px;}
+#contact-form input {width:165px; height:25px; margin-bottom:10px; background:#000; color:#fff;}
+#contact-form #contact-form-mssg {position:relative; float:left; width:380px; margin-left:10px;}
+#contact-form #contact-form-mssg textarea {width:370px; height:100px; background:#000; color:#fff;}
 
+#contact-form #contact-button input.wpcf7-submit {position:absolute; bottom:25px; right:20px; width:100px; height:30px; background:#000; color:#fff; border:1px solid #fff; cursor:pointer;}
+#contact-form #contact-button input.wpcf7-submit:hover {background:#fff; color:#000; border:1px solid #000;}
 
 
 

@@ -618,3 +618,5 @@ function diww_favicon() {
 add_action('wp_head', 'diww_favicon');
 add_action('admin_head', 'diww_favicon');
 
+add_filter( 'show_admin_bar', '__return_false' );
+
