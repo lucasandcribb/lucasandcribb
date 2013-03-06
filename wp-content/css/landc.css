@@ -1,8 +1,8 @@
 
-body {padding:0px !important; min-width:1000px; display:none; }
-#page {margin-top:0px !important; min-width:100%; background:#000;}
+body {padding:0px !important; min-width:1000px; display:none;}
+#page {margin-top:0px !important; min-width:1000px; background:#000; min-height:800px;}
 .one-column #page {max-width:1200px; min-width:100%}
-#main {min-height:600px; padding-top:50px; max-width:1000px; position:relative; margin:auto;}
+#main {min-height:800px; padding-top:50px; max-width:1000px; position:relative; margin:auto;}
 
 
 /* *****HEADER***** */
@@ -88,24 +88,52 @@ footer {background:#000;}
 
 /* *****OUR WORK***** */
 .page-template-ourwork-php #work-cont {width:900px; position:relative; margin-left:50px;}
-.page-template-ourwork-php .entry-content {position:relative; float:left; width:1000px; margin-bottom:20px;}
-.page-template-ourwork-php .website-slideshow {height:400px; padding-top:0px;}
+.page-template-ourwork-php #work-cont .entry-content {position:relative; float:left; width:900px;}
+.imac-title, .mobile-title, .photo-title {font-size:22px; font-family:'Hoefler Text'; color:#fff;}
+.imac-descr, .mobile-descr, .photo-descr {margin-top:10px; margin-bottom:75px; color:#fff;}
+.imac-link, .mobile-link, .photo-link {text-decoration:underline; color:#fff;}
+#imac-slide-buttons, #photo-slide-buttons {display:none; position:absolute; top:-20px; left:200px;}
+
+/* WEBSITE */
+.page-template-ourwork-php .website-slideshow {height:375px; padding-top:0px;}
 .page-template-ourwork-php .website-slideshow #imac {position:absolute; left:0px; top:0px; z-index:5;}
 .page-template-ourwork-php .website-slideshow .imac-img {position:relative; float:left; margin-top:15px; margin-left:20px; 
 	width:415px; height:250px; z-index:1;}
 .page-template-ourwork-php .website-slideshow .imac-slide-caption {position:relative; float:left; height:300px; width:400px; margin-top:25px; margin-left:50px;}
 .page-template-ourwork-php .website-slideshow .imac-slide-caption div {position:relative; float:left;}
 
-#carousel {width:900px; height:400px; margin:0 auto;} 
-#slides {overflow:hidden; position:relative; width:900px; height:400px;}
+#carousel {width:900px; height:375px; margin:0 auto;} 
+#slides {overflow:hidden; position:relative; width:900px; height:375px;}
 #slides ul {position:relative; left:0; top:0; list-style:none; margin:0; padding:0; width:1600px;} 
-#slides li {width:900px; height:400px; float:left; color:#fff;}
+#slides li {width:900px; height:375px; float:left; color:#fff;}
 #slides li img {padding:5px;}
-#imac-slide-buttons {display:none; position:absolute; top:-20px; left:200px;}
 
-.imac-title {font-size:22px; font-family:'Hoefler Text';}
-.imac-descr {margin-top:10px; margin-bottom:25px;}
-.imac-link {text-decoration:underline;}
+/* MOBILE */
+.page-template-ourwork-php .mobile-slideshow {height:375px; padding-top:0px;}
+.page-template-ourwork-php .mobile-slideshow #ipad {position:absolute; right:35px; top:0px; z-index:5; width:200px; height:300px;}
+.page-template-ourwork-php .mobile-slideshow #iphone {position:absolute; right:0px; top:150px; z-index:10; width:100px; height:175px;}
+.page-template-ourwork-php .mobile-slideshow .ipad-img {position:absolute; top:29px; right:53px; 
+	width:160px; height:240px; z-index:1;}
+.page-template-ourwork-php .mobile-slideshow .iphone-img {position:absolute; top:175px; right:9px; 
+	width:80px; height:150px; z-index:6;}
+.page-template-ourwork-php #mobile-slides {width:550px; height:350px;}
+.page-template-ourwork-php .mobile-slide-caption {margin-top:75px; height:300px;}
+
+/* PHOTOGRAPHY */
+.page-template-ourwork-php .photo-slideshow {height:350px; padding-top:0px;}
+.page-template-ourwork-php .photo-slideshow #frame {position:absolute; left:0px; top:0px; z-index:5;}
+.page-template-ourwork-php .photo-slideshow .photo-img {position:relative; float:left; margin-top:25px; margin-left:35px; 
+	width:305px; height:250px; z-index:1;}
+.page-template-ourwork-php .photo-slideshow .photo-slide-caption {position:relative; float:left; height:200px; width:400px; margin-top:25px; margin-left:100px;}
+.page-template-ourwork-php .photo-slideshow .photo-slide-caption div {position:relative; float:left;}
+
+#carousel {width:900px; height:350px; margin:0 auto;} 
+#slides {overflow:hidden; position:relative; width:900px; height:350px;}
+#slides ul {position:relative; left:0; top:0; list-style:none; margin:0; padding:0; width:1600px;} 
+#slides li {width:900px; height:350px; float:left; color:#fff;}
+#slides li img {padding:5px;}
+#photo-slide-buttons {display:none; position:absolute; top:-20px; left:200px;}
+.photo-img-title {margin-top:50px; text-decoration:none; text-transform:uppercase;}
 
 
 /* *****GALLERY***** */

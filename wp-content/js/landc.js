@@ -23,19 +23,19 @@ $(document).ready(function() {
 		$('.f-white').show();
 	});
 
-	customSlideshow();
+	customImacSlideshow();
+	customPhotoSlideshow();
 
 });
 
-function rotate() {
+function rotateImac() {
     $('#imac-slide-buttons #next').click();
 } 
-function customSlideshow() {
-
+function customImacSlideshow() {
 	var speed = 10000;
-    var run = setInterval('rotate()', speed);
+    var run = setInterval('rotateImac()', speed);
 
-    $('#slides .current').mouseenter(function() {
+    $('#imac-slideshow #slides .current').mouseenter(function() {
     	clearInterval(run);
     }).mouseleave(function() {
     	run = setInterval('rotate()', speed);
@@ -51,43 +51,69 @@ function customSlideshow() {
 	});
 
 	$('#next').click(function() {  
-        var currentIndex = parseInt($('#slides .current').attr('ref'));
-        var last = $('#slides .current').hasClass('last');
+        var currentIndex = parseInt($('#imac-slideshow #slides .current').attr('ref'));
+        var last = $('#imac-slideshow #slides .current').hasClass('last');
         var nextIndex;
-        $('#slides .current').fadeOut();
+        $('#imac-slideshow #slides .current').fadeOut();
         if (last == false) {
-        	$('#slides .current').removeClass('current');
+        	$('#imac-slideshow #slides .current').removeClass('current');
         	nextIndex = currentIndex + 1;
-        	$('.index-'+nextIndex).addClass('current');
-        	$('.index-'+nextIndex).fadeIn(1500);
+        	$('#imac-slideshow .index-'+nextIndex).addClass('current');
+        	$('#imac-slideshow .index-'+nextIndex).fadeIn(1500);
         	
         } else {
-        	$('#slides .current').removeClass('current');
+        	$('#imac-slideshow #slides .current').removeClass('current');
         	nextIndex = 0;
-        	$('.index-'+nextIndex).addClass('current');
-        	$('.index-'+nextIndex).fadeIn(1500);
+        	$('#imac-slideshow .index-'+nextIndex).addClass('current');
+        	$('#imac-slideshow .index-'+nextIndex).fadeIn(1500);
         }
     }); 
-
-    // $('#prev').click(function() {  
-    //     var currentIndex = parseInt($('#slides .current').attr('ref'));
-    //     var first = $('#slides .current').hasClass('first');
-    //     var nextIndex;
-    //     $('#slides .current').fadeOut();
-    //     if (first == false) {
-    //     	$('#slides .current').removeClass('current');
-    //     	nextIndex = currentIndex - 1;
-    //     	$('.index-'+nextIndex).addClass('current');
-    //     	$('.index-'+nextIndex).fadeIn(1500);
-        	
-    //     } else {
-    //     	$('#slides .current').removeClass('current');
-    //     	nextIndex = i;
-    //     	$('.index-'+nextIndex).addClass('current');
-    //     	$('.index-'+nextIndex).fadeIn(1500);
-    //     }
-    // }); 
- 
 }
+
+
+function rotatePhoto() {
+    $('#photo-slide-buttons #next').click();
+} 
+function customPhotoSlideshow() {
+	var speed = 10000;
+    var run = setInterval('rotatePhoto()', speed);
+
+    $('#photo-slideshow #slides .current').mouseenter(function() {
+    	clearInterval(run);
+    }).mouseleave(function() {
+    	run = setInterval('rotate()', speed);
+    });
+
+	$('#photo-slideshow #slides li').first().addClass('first');
+	$('#photo-slideshow #slides li').first().addClass('current');
+	$('#photo-slideshow #slides li').last().addClass('last');
+
+	var i = 0;
+	$('#photo-slideshow #slides li').each(function() {
+		i++;
+	});
+
+	$('#next').click(function() {  
+        var currentIndex = parseInt($('#photo-slideshow #slides .current').attr('ref'));
+        var last = $('#photo-slideshow #slides .current').hasClass('last');
+        var nextIndex;
+        $('#photo-slideshow #slides .current').fadeOut();
+        if (last == false) {
+        	$('#photo-slideshow #slides .current').removeClass('current');
+        	nextIndex = currentIndex + 1;
+        	$('#photo-slideshow .index-'+nextIndex).addClass('current');
+        	$('#photo-slideshow .index-'+nextIndex).fadeIn(1500);
+        	
+        } else {
+        	$('#photo-slideshow #slides .current').removeClass('current');
+        	nextIndex = 0;
+        	$('#photo-slideshow .index-'+nextIndex).addClass('current');
+        	$('#photo-slideshow .index-'+nextIndex).fadeIn(1500);
+        }
+    }); 
+}
+
+
+
 
 

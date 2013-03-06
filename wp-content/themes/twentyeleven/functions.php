@@ -612,3 +612,9 @@ function twentyeleven_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'twentyeleven_body_classes' );
 
+function diww_favicon() {
+	echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_bloginfo('stylesheet_directory').'/favicon.ico" />';
+}
+add_action('wp_head', 'diww_favicon');
+add_action('admin_head', 'diww_favicon');
+
