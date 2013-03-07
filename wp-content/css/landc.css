@@ -122,7 +122,7 @@ footer {background:#000;}
 /* PHOTOGRAPHY */
 .page-template-ourwork-php .photo-slideshow {height:350px; padding-top:0px;}
 .page-template-ourwork-php .photo-slideshow #frame {position:absolute; left:0px; top:0px; z-index:5;}
-.page-template-ourwork-php .photo-slideshow .photo-img {position:relative; float:left; margin-top:25px; margin-left:35px; 
+.page-template-ourwork-php .photo-slideshow .photo-img {position:relative; float:left; margin-top:29px; margin-left:35px; 
 	width:305px; height:250px; z-index:1;}
 .page-template-ourwork-php .photo-slideshow .photo-slide-caption {position:relative; float:left; height:200px; width:400px; margin-top:25px; margin-left:100px;}
 .page-template-ourwork-php .photo-slideshow .photo-slide-caption div {position:relative; float:left;}
@@ -133,20 +133,8 @@ footer {background:#000;}
 #slides li {width:900px; height:350px; float:left; color:#fff;}
 #slides li img {padding:5px;}
 #photo-slide-buttons {display:none; position:absolute; top:-20px; left:200px;}
-.photo-img-title {margin-top:50px; text-decoration:none; text-transform:uppercase;}
+.photo-img-title {margin-top:35px; text-decoration:none; text-transform:uppercase;}
 
-
-/* *****GALLERY***** */
-.page-template-gallery-php #content article {padding:0px; margin-top:0px;}
-.page-template-gallery-php #content article .entry-header {display:none;}
-.page-template-gallery-php #content div {position:relative; float:left;}
-.page-template-gallery-php #content .gallery-cont {width:400px; padding-bottom:50px;}
-.page-template-gallery-php #content #photo-gallery {margin-left:40px;}
-.page-template-gallery-php #content .gallery-cont .gallery-col-title {font-size:24px; color:#fff; width:100%; text-align:center; margin-bottom:20px;}
-.page-template-gallery-php #content .gallery-cont .gallery-entry {width:200px; height:200px; margin-bottom:20px;}
-.page-template-gallery-php #content .gallery-cont .gallery-entry .gallery-img {height:150px; width:190px;}
-.page-template-gallery-php #content .gallery-cont .gallery-entry .gallery-img img {width:180px; height:140px; padding:5px;}
-.page-template-gallery-php #content .gallery-cont .gallery-entry .gallery-img-title {height:40px; width:180px; padding:5px; text-align:center; color:#fff; font-size:12px;}
 
 
 
