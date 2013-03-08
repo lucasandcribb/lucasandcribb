@@ -139,8 +139,9 @@ footer {background:#000;}
 
 
 /* *****CONTACT***** */
-.page-template-contact-php #content {width:400px; font-size:14px; position:relative; float:left; 
+.page-template-contact-php #main #content {width:400px; font-size:14px; position:relative; float:left; margin-right:0px;
 	text-align:center; margin:0px; margin-left:50px; margin-top:0px;}
+.page-template-contact-php.one-column #main #content {margin-right:0px;}
 .page-template-contact-php #content article {padding-top:0px;}
 .page-template-contact-php #content article .entry-header {display:none;}
 
