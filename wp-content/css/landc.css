@@ -158,9 +158,12 @@ footer {background:#000;}
 #contact-form #contact-form-mssg {position:relative; float:left; width:380px; margin-left:10px;}
 #contact-form #contact-form-mssg textarea {width:370px; height:100px; background:#000; color:#fff;}
 
+#contact-form #contact-button {}
 #contact-form #contact-button input.wpcf7-submit {position:absolute; bottom:25px; right:20px; width:100px; height:30px; background:#000; color:#fff; border:1px solid #fff; cursor:pointer;}
 #contact-form #contact-button input.wpcf7-submit:hover {background:#fff; color:#000; border:1px solid #000;}
 
-
+div.wpcf7-mail-sent-ok {position:absolute; bottom:-10px; width:230px; border:1px solid #fff; color:#fff;}
+div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {position:absolute; bottom:-10px; width:230px; border:1px solid #8A0829; color:#DF013A;}
+span.wpcf7-not-valid-tip {position:absolute; text-align:left; left:2px; top:-23px; border:none; background:none; width:200px; padding:0px; margin:0px; color:#DF013A; font-size:11px;}
 
 
