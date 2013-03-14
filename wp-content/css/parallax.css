@@ -1,0 +1,84 @@
+#parallax-hp {overflow-x:hidden; width:100%; height:100%; min-width:1000px;}
+#scroll-container {width:100%; height:7500px;}
+#scrollnumber {position:fixed; top:5px; left:5px; z-index:5000; color:#790000; display:none;}
+
+.bg-img {width:100%; position:fixed; top:0px; left:0; z-index:-10;}
+#white-bg-img {opacity:0.5;}
+#black-bg-img {display:none;}
+
+#scroll-info {position:fixed; top:10px; font-size:12px; color:#000; width:200px; text-align:center;}
+#scroll-info div  {width:150px;}
+#scroll-info div, #scroll-info img {position:relative; float:left;}
+#scroll-info img {width:23px; height:22px;}
+
+#hp-header {display:none; position:fixed; top:0px; left:0px; width:100%; height:75px;
+	background:url('/wp-content/images/backgrounds/black-linen.jpg'); z-index:500;}
+#hp-header .small-logo {position:absolute; left:10px; top:10px; height:55px;}
+#hp-header .header-title {position:absolute; left:100px; color:#fff; top:45px; font:18px normal Helvetica;}
+#hp-header .header-nav {position:absolute; right:10px; top:40px; color:#fff; width:70%; height:20px;}
+#hp-header .header-nav a {position:relative; float:right; width:10%; padding-left:15px; padding-right:15px; font-size:14px; text-align:center;}
+#hp-header .header-nav a:hover {background:url('/wp-content/images/backgrounds/white-linen.jpg'); text-decoration:none; color:#790000;}
+.focus-arrow {display:none; position:absolute; top:0px;}
+.left-arrow {left:0px;}
+.right-arrow {right:0px;}
+
+#logo {position:fixed; top:100px;}
+
+/* SLIDESHOW PAGE */
+#hp-slider-page {position:fixed; left:0px; top:1000px; width:80%; background:#fff; border-top:2px solid #790000;
+	min-width:1000px; padding-left:10%; padding-right:10%; z-index:10px;}
+#hp-slider {position:relative; margin:auto; margin-top:50px; width:750px; height:400px; background:url('/wp-content/images/backgrounds/black-linen.jpg'); border:1px solid #000;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;}
+#hp-slider-page .slideshow-wrapper {height:100%;}
+#hp-slider-page .portfolio-slideshow {position:relative; float:left; width:400px; margin-top:75px; margin-left:50px;}
+#hp-slider-page .pscarousel {position:absolute; top:75px; right:50px; width:175px;}
+#hp-slider-page .pager {position:relative; float:left; width:100%; height:100%;}
+
+/* INFO PAGE */
+#hp-info-page {position:fixed; left:2000px; top:75px; width:80%; padding-left:10%; padding-right:10%; background:#fff; display:none;
+	border-top:2px solid #790000; border-left:1px solid #790000; min-width:1000px; z-index:20;}
+#info-bg-img {opacity:0.25; position:absolute; width:100%; height:100%; z-index:0; top:0px; left:0px;}
+#news-feed {position:relative; float:left; height:400px; width:200px; border:1px solid #666; margin-top:25px;}
+#News_Feed {width:100%; height:100%;}
+#News_Feed ul {margin:0px; padding:5px;}
+#News_Feed ul li {margin-bottom:5px;}
+#News_Feed ul li h2.widgettitle {width:100%; background:url('/wp-content/images/backgrounds/white-linen.jpg');}
+#News_Feed ul li h2.widgettitle a {color:#000;}
+#News_Feed ul li ul li a.rsswidget {color:#790000; width:100%; position:relative; float:left;}
+
+.info-page-section {position:relative; float:left; margin-left:25px; margin-top:20px; width:700px; height:100px;}
+
+#services-info {height:150px; color:#000;}
+.hp-info-title {position:relative; float:left; margin-bottom:10px; width:250px; height:25px; background:url('/wp-content/images/backgrounds/black-linen.jpg'); 
+	color:#fff; text-align:center;}
+.service-section-body {width:2000px; position:relative; float:left;}
+.service-info-img {position:relative; float:left; margin-right:0px; margin-left:500px;}
+
+.who-section-body {width:700px; position:relative; float:left;}
+
+.platform-section-body {width:700px; position:relative; float:left;}
+.platform-info-img {position:relative; float:left; margin-right:20px; margin-top:250px;}
+
+
+
+/* PROCESS PAGE */
+#hp-process-page {display:none; position:fixed; top:75px; left:0px; border:2px solid #790000; min-width:1000px; 
+	width:80%; padding-left:10%; padding-right:10%; z-index:30; color:#fff;}
+#process-bg-img {position:absolute; top:0px; left:0px; width:100%; height:100%;}
+#hp-process-page div {position:relative; float:left;}
+#process-title {margin-bottom:10px; width:100%; font-size:20px; font-weight:bold;}
+#process-body {margin-bottom:50px; width:100%; font-size:14px; overflow:visible;}
+.process-step {margin-bottom:5px; overflow:visible;}
+.process-step span {font-weight:bold;}
+.check {position:absolute; left:-30px; width:25px; display:none;}
+
+
+
+
+
+
+
+

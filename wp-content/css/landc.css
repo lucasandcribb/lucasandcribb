@@ -1,24 +1,20 @@
 
-body {padding:0px !important; min-width:1000px; display:none;}
-#page {margin-top:0px !important; min-width:1000px; background:#000; min-height:800px;}
-.one-column #page {max-width:1200px; min-width:100%}
-#main {min-height:800px; padding-top:50px; max-width:1000px; position:relative; margin:auto;}
+body {padding:0px !important; min-width:1000px; display:none; background:none;}
+body.page-template-homepage-php {min-height:15000px;}
+#page {margin-top:0px !important; min-width:1000px; background:none; min-height:800px; max-width:100%;}
+.one-column #page {min-width:1000px; max-width:100%;}
+#main {min-height:800px; padding-top:50px; width:1000px; position:relative; margin:auto;}
+
+
 
 
 /* *****HEADER***** */
 #branding {margin-bottom:20px; width:100%; position:relative; float:left; margin-bottom:0px; padding-bottom:0px;
-	background:#222;}
-#logo-cont {position:relative; float:left; padding-bottom:20px; width:18%; background:#000;}
-#logo {position:relative; float:left; margin-top:10px; margin-left:50px;}
-#header-login {position:absolute; right:50px; top:10px; display:none;}
-#header-bg-divider {position:relative; float:left; height:166px; width:5%;}
-#header-bg-divider img {height:166px;}
-
-#header-title {position:relative; background:none; border:none; width:77%; clear:none; margin-top:10px; height:90px; float:right; text-align:center;}
-#header-title .title-line1, #header-title .title-line2 {font-family:'Hoefler Text'; font-size:42px; text-align:center; position:relative; float:left; 
-	width:100%; line-height:100%; color:#fff;}
-#header-title .title-line2 {font-size:32px;}
-
+	z-index:100;}
+.page-template-homepage-php #branding {height:2500px; min-height:150px;}
+.page-template-homepage-php #logo {position:absolute;}
+.page-template-homepage-php #logo #logo-img {position:relative; margin:auto; text-align:center; width:240px; height:270px;}
+.page-template-homepage-php #branding #access {display:none; margin-left:1500px;}
 #branding #access {background:none; border:none; width:77%; clear:none; margin-top:20px; float:right;}
 #access div {margin:0px;}
 #branding #access ul li {border-right:1px solid #fff; height:24px; width:16%; padding-left:4%; padding-right:4%;}
@@ -28,7 +24,7 @@ body {padding:0px !important; min-width:1000px; display:none;}
   	box-shadow:         none;
 }
 #branding #access a {background:none; height:20px; line-height: 1.5em; text-align:center; padding:0px; color:#fff; font-family:'Hoeffler Text';
-	font-size:20px; height:26px;}
+	font-size:20px; height:26px; min-width:1000px;}
 #branding #access a:hover {color:#000; /*border-bottom:15px solid #fff;*/ text-decoration:none; background:#fff;}
 #access .current-menu-item > a, #access .current-menu-ancestor > a, 
 	#access .current_page_item > a, #access .current_page_ancestor > a {background:none; height:20px; line-height: 1.5em; text-align:center;}
@@ -37,23 +33,40 @@ body {padding:0px !important; min-width:1000px; display:none;}
 #branding #access ul li#menu-item-10 {border-right:none;}
 #access .current-menu-item > a, #access .current-menu-ancestor > a, #access .current_page_item > a, #access .current_page_ancestor > a {text-transform:uppercase;}
 
-.flexible-frontend-login .ffl-popup-content {background:#000 !important;}
 
-#header-divider {position:absolute; top:168px; width:100%; height:1px; background:#efefef; min-width:1000px;}
 
 
 /* *****FOOTER***** */
-footer {background:#000;}
-#footer-cont {position:relative; float:left; width:100%; background:#222; height:50px;
+footer {background:url('/wp-content/images/header/white-linen.jpg'); position:fixed; bottom:0px; width:100%; height:100px; border-top:2px solid #790000;
+	z-index:101; min-width:950px;}
+#footer-cont {position:relative; float:left; width:100%; height:50px;
 	border-top:1px solid #999; padding-top:5px;}
-#footer-cont .footer-links {position:relative; float:left; width:15%; height:50px;}
-#footer-cont .footer-links a {position:relative; float:left; width:100%; font-size:12px; text-align:center;}
+#footer-cont .footer-links {position:relative; float:left; width:10%; height:50px; padding-top:15px;}
+#footer-cont .footer-links a {position:relative; float:left; width:100%; height:40px; font-size:12px; text-align:center; color:#790000;}
+
+#featured-site {position:relative; float:left; width:250px; height:90px; border:1px solid #000; margin-left:25px;}
+.featured-img {position:relative; float:left; margin-top:10px; margin-left:10px;}
+.featured-info {position:relative; float:left; margin-top:10px; margin-left:10px; width:100px; height:80px; text-align:center;}
+.featured-info span {font-size:12px; color:#000; font-weight:bold;}
+.featured-info a {font-size:12px; color:#790000;}
+.featured-info a:hover {color:#000;}
+
+#footer-social-links {position:relative; float:right; margin-right:40px; width:150px; height:80px; margin-top:5px; color:#000; text-align:center;}
+#footer-social-links .social-media {width:75px; padding-top:0px;}
 #footer-cont .footer-links a.facebook {margin-top:10px;}
 #footer-cont .footer-links a.twitter {margin-top:15px;}
+#footer-cont .footer-links a.facebook .f-grey, #footer-cont .footer-links a.facebook .f-white {width:12px;}
 #footer-cont .footer-links a.twitter .t-grey, #footer-cont .footer-links a.facebook .f-grey {display:none;}
-#footer-cont a.copyright {width:250px; font-size:10px; position:relative; float:right; margin-right:50px; margin-top:20px;}
+
+#footer-cont a.copyright {width:250px; font-size:10px; position:relative; float:right; margin-right:50px; margin-top:20px; display:none;}
 #footer-cont a.copyright  {text-decoration:none;}
-#footer-cont .footer-links a:hover {text-decoration:underline;}
+#footer-cont .footer-links a:hover {text-decoration:underline; color:#000;}
+
+#footer-contact-info {position:relative; float:right; text-align:right; height:90px; margin-top:5px; color:#000; 
+	font:14px normal Helvetica; margin-right:20px;}
+#footer-contact-info span {font-weight:bold; line-height:110%;}
+#footer-contact-info a {color:#790000;}
+#footer-contact-info a:hover {color:#000;}
 
 
 /* *****HOMEPAGE***** */
@@ -64,11 +77,8 @@ footer {background:#000;}
 
 #main #content .entry-content {color:#fff; padding-top:0px;}
 
-#hp-slider {position:relative; float:left; width:450px; margin-left:50px; text-align:center;}
-.mainTable, .mainTable #mainscollertd, .mainTable #mainscollertd .mainSliderDiv {width:340px !important;}
-.page-template-homepage-php #content article .wpuf-attachments {display:none;}
-.portfolio-slideshow .slideshow-content img {padding:7px !important; border:1px ridge #fff !important;}
-.slideshow-wrapper .pscarousel {padding-left:18px;}
+
+
 
 
 /* *****SERVICES***** */

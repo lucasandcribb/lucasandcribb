@@ -10,7 +10,6 @@
  */
 ?>
 
-	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">
 
@@ -23,18 +22,40 @@
 				<a href="/gallery/">Gallery</a>
 				<a href="/contact/">Contact</a>
 			</div>
-			<div class="footer-links social-media">
-				<a class="facebook" href="#">
-					<img class="f-white" src="/wp-content/images/footer/f.png" />
-					<img class="f-grey" src="/wp-content/images/footer/f-grey.png" />
-				</a>
+
+			<div id="featured-site">
+				<a href="/our-work"><img class="featured-img" src="/wp-content/images/footer/featured-img.jpg" /></a>
+				<div class="featured-info">
+					<span>Featured Site</span>
+					<a href="/our-work">jesscribb.com</a>
+				</div>
 			</div>
-			<div class="footer-links social-media">
-				<a class="twitter" href="#">
-					<img class="t-white" src="/wp-content/images/footer/twitter.png" />
-					<img class="t-grey" src="/wp-content/images/footer/twitter-grey.png" />
-				</a>
+
+			<div id="footer-contact-info">
+				<span>Lucas &amp Cribb Digital Developers, LLC</span></br>
+				20 Addlestone Ave</br>
+				Charleston, SC 29403</br>
+				(843) 425-1439</br>
+				<a href="mailto:info@lucasandcribb.com">info@lucasandcribb.com</a>
 			</div>
+
+			<div id="footer-social-links">
+				<span>Tell Your Friends</span>
+				<div class="footer-links social-media">
+					<a class="facebook" href="#">
+						<img class="f-white" src="/wp-content/images/footer/black-f.png" />
+						<img class="f-grey" src="/wp-content/images/footer/red-f.png" />
+					</a>
+				</div>
+				<div class="footer-links social-media">
+					<a class="twitter" href="#">
+						<img class="t-white" src="/wp-content/images/footer/black-twitter.png" />
+						<img class="t-grey" src="/wp-content/images/footer/red-twitter.png" />
+					</a>
+				</div>
+			</div>
+
+
 
 			<a class="copyright" href="mailto:sales@landcdigital.com">&#169; Copyright 2012, Lucas &#38; Cribb Digital Developers, LLC</a>
 		</div>
