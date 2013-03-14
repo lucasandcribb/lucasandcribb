@@ -136,6 +136,7 @@ footer {background:url('/wp-content/images/header/white-linen.jpg'); position:fi
 
 
 /* *****CONTACT***** */
+#contact-container {width:1000px; position:relative; margin:auto;}
 .page-template-contact-php #content {width:400px; font-size:14px; position:relative; float:left; margin-right:0px;
 	margin:0px; margin-left:50px; margin-top:75px; padding-bottom:150px;}
 .page-template-contact-php.one-column #content {margin-right:0px; margin-top:75px; padding-bottom:150px;}
@@ -143,10 +144,10 @@ footer {background:url('/wp-content/images/header/white-linen.jpg'); position:fi
 .page-template-contact-php #content article .entry-header {display:none;}
 .page-template-contact-php #content article .entry-content {color:#000;}
 
-.contact-title {font-family:'Hoefler Text'; font-size:28px;}
+.contact-title {font-family:'Hoefler Text'; font-size:26px;}
 
 .page-template-contact-php #map-cont, #map_div {position:relative; float:right; width:400px; margin-right:50px; text-align:center; height:550px;
-	border:1px solid #fff; margin-bottom:50px; margin-top:125px;}
+	border:1px solid #000; margin-bottom:50px; margin-top:125px;}
 
 #contact-form {position:relative; float:left; background:#333; width:400px; height:350px; margin-top:25px;}
 #contact-form-title {position:relative; float:left; width:100%; text-align:center; color:#fff; font-family:'Hoefler Text'; font-size:26px; margin-top:10px;}

@@ -5,6 +5,8 @@ Template Name: Contact
 ?>
 <?php get_header(); ?>
 
+    <div id="contact-container">
+
 		<div id="content" role="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -60,6 +62,6 @@ Template Name: Contact
     		//END GOOGLE MAPS//
 		</script>
 		
-
+    </div>
 
 <?php get_footer(); ?>
