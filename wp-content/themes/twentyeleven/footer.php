@@ -19,7 +19,7 @@
 				<a href="/services/">Services</a>
 			</div>
 			<div class="footer-links">
-				<a href="/gallery/">Gallery</a>
+				<a href="/our-work/">Our Work</a>
 				<a href="/contact/">Contact</a>
 			</div>
 
