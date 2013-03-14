@@ -27,6 +27,7 @@
 /* SLIDESHOW PAGE */
 #hp-slider-page {position:fixed; left:0px; top:1000px; width:80%; background:#fff; border-top:2px solid #790000;
 	min-width:1000px; padding-left:10%; padding-right:10%; z-index:10px;}
+#hp-slider-title {position:absolute; top:10px; left:20px; width:100%; text-align:center; font-size:18px; color:#fff;}
 #hp-slider {position:relative; margin:auto; margin-top:50px; width:750px; height:400px; background:url('/wp-content/images/backgrounds/black-linen.jpg'); border:1px solid #000;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;

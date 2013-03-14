@@ -93,6 +93,7 @@ Template Name: Parallax Homepage
 	<div id="scroll-container">
 		<div id="hp-slider-page">
 			<div id="hp-slider">
+				<div id="hp-slider-title">Visit "<a href="/our-work">Our Work</a>" to See More</div>
 				<?php echo do_shortcode('[portfolio_slideshow id=4]');?>
 			</div>
 		</div>
