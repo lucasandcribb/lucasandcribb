@@ -1,15 +1,13 @@
 @media screen and (max-width: 480px) {
-	#content {width:350px; margin-left:0px;}
-	#hp-slider {width:400px; margin-left:0px;}
-
-	.page-template-services-php .entry-content {width:600px;}
-	.page-template-services-php .service-content {width:350px;}
+	#parallax-hp {min-width:480px !important;}
+	#scroll-container, #scroll-info, #parallax-hp footer {display:none;}
+	#logo {position:fixed !important; top:20px !important; left:100px !important;}
+	#logo img {width:100px;}
+	#iphone-button-cont {display:block;}
+	#scroll-container {height:0px !important;}
 }
 
 @media screen and (max-width:320px) {
-	#content {width:350px; margin-left:0px;}
-	#hp-slider {width:400px; margin-left:0px;}
-
-	.page-template-services-php .entry-content {width:600px;}
-	.page-template-services-php .service-content {width:350px;}
+	#parallax-hp {min-width:320px !important;}
+	#iphone-button-cont {margin-left:30px; margin-top:200px;}
 }

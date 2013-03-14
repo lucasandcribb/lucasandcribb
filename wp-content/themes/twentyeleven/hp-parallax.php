@@ -68,27 +68,27 @@ Template Name: Parallax Homepage
 	<img id="white-bg-img" class="bg-img" src="/wp-content/images/backgrounds/white-linen.jpg" />
 
 	
-		<div id="scroll-info">
-			<img class="left-arrow" src="/wp-content/images/header/arrow.png" />
-			<div>Scroll Down to View More</div>
-			<img class="right-arrow" src="/wp-content/images/header/arrow.png" />
+	<div id="scroll-info">
+		<img class="left-arrow" src="/wp-content/images/header/arrow.png" />
+		<div>Scroll Down to View More</div>
+		<img class="right-arrow" src="/wp-content/images/header/arrow.png" />
+	</div>
+
+	<div id="hp-header">
+		<img class="small-logo" src="/wp-content/images/header/logo-black.png" />
+		<div class="header-title">Lucas &amp Cribb Digital Developers</div>
+		<div class="header-nav">
+			<a href="/contact"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Contact<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+			<a href="/our-work"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Our Work<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+			<a href="/services"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Services<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+			<a href="/"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
 		</div>
-	
-		<div id="hp-header">
-			<img class="small-logo" src="/wp-content/images/header/logo-black.png" />
-			<div class="header-title">Lucas &amp Cribb Digital Developers</div>
-			<div class="header-nav">
-				<a href="/contact"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Contact<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-				<a href="/our-work"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Our Work<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-				<a href="/services"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Services<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-				<a href="/"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-			</div>
-		</div>
-		<div id="logo">
-			<a href="/">
-				<img id="logo-img" src="/wp-content/images/header/logo-black.png" />
-			</a>
-		</div>
+	</div>
+	<div id="logo">
+		<a href="/">
+			<img id="logo-img" src="/wp-content/images/header/logo-black.png" />
+		</a>
+	</div>
 	
 	<div id="scroll-container">
 		<div id="hp-slider-page">
@@ -179,6 +179,13 @@ Template Name: Parallax Homepage
 			</div>
 		</div>
 	</div>
+
+	<div id="iphone-button-cont">
+		<a href="/services"><div class="iphone-button">Services</div></a>
+		<a href="/our-work"><div class="iphone-button">Our Work</div></a>
+		<a href="/contact"><div class="iphone-button">Contact</div></a>
+	</div>
+
 
 	<?php get_footer(); ?>
 
