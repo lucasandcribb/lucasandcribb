@@ -82,26 +82,15 @@
 
 <div id="page" class="hfeed">
 
-	<header id="branding" role="banner">
-
-
-			<div id="logo">
-				<a href="/">
-					<img id="logo-img" src="/wp-content/images/header/logo-black.png" />
-				</a>
+		<div id="hp-header">
+			<img class="small-logo" src="/wp-content/images/header/logo-black.png" />
+			<div class="header-title">Lucas &amp Cribb Digital Developers</div>
+			<div class="header-nav">
+				<a href="/contact"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Contact<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+				<a href="/our-work"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Our Work<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+				<a href="/services"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Services<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+				<a href="/"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
 			</div>
-
-			<div id="access" role="navigation">
-				<h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
-				<?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
-				<div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to primary content', 'twentyeleven' ); ?></a></div>
-				<div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to secondary content', 'twentyeleven' ); ?></a></div>
-				<?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-			</div><!-- #access -->
-
-			
-	</header><!-- #branding -->
+		</div>
 
 
-	<div id="main">

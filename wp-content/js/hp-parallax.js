@@ -8,8 +8,6 @@ $(document).ready(function() {
 		$(this).children('img').show();
 		$(this).children('img.left-arrow').animate({'left':5},500);
 		$(this).children('img.right-arrow').animate({'right':5},500);
-		
-		
 	}).mouseleave(function() {
 		$('.focus-arrow').hide();
 		$(this).children('img.left-arrow').css({'left':0});
