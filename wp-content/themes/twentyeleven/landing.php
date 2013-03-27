@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Placeholder
+Template Name: Landing
 */
 ?>
 <?php get_header(); ?>
