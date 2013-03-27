@@ -1,10 +1,10 @@
 
-body {padding:0px !important; min-width:1000px; display:none; background:none;}
-body.page-template-homepage-php {min-height:15000px;}
-#page {margin-top:0px !important; min-width:1000px; background:none; min-height:800px; max-width:100%;}
-.one-column #page {min-width:1000px; max-width:100%;}
-#main {min-height:800px; padding-top:50px; width:1000px; position:relative; margin:auto;}
-#content, .one-column #content {margin-top:75px; margin-bottom:100px;}
+body {padding:0px !important; display:none; background:none;}
+
+#page {margin-top:0px !important; background:none; max-width:100%;}
+.one-column #page {max-width:100%;}
+#main {padding-top:50px; position:relative; margin:auto;}
+#content, .one-column #content {margin-top:75px; margin-bottom:100px; position:relative; float:left;}
 #content .page-header {display:none;}
 
 
@@ -15,7 +15,11 @@ body.page-template-homepage-php {min-height:15000px;}
 #hp-header .small-logo {position:absolute; left:10px; top:10px; height:55px;}
 #hp-header .header-title {position:absolute; left:100px; color:#fff; top:45px; font:18px normal Helvetica;}
 #hp-header .header-nav {position:absolute; right:10px; top:40px; color:#fff; width:70%; height:20px;}
-#hp-header .header-nav a {position:relative; float:right; width:10%; padding-left:15px; padding-right:15px; font-size:14px; text-align:center;}
+#hp-header .header-nav a {position:relative; float:right; width:10%; padding-left:15px; padding-right:15px; font-size:14px; text-align:center; min-width:60px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;}
 #hp-header .header-nav a:hover {background:url('/wp-content/images/backgrounds/white-linen.jpg'); text-decoration:none; color:#790000;}
 .focus-arrow {display:none; position:absolute; top:0px;}
 .left-arrow {left:0px;}
@@ -25,7 +29,7 @@ body.page-template-homepage-php {min-height:15000px;}
 
 /* *****FOOTER***** */
 footer {background:url('/wp-content/images/header/white-linen.jpg'); position:fixed; bottom:0px; width:100%; height:100px; border-top:2px solid #790000;
-	z-index:101; min-width:950px;}
+	z-index:101;}
 #footer-cont {position:relative; float:left; width:100%; height:50px;
 	border-top:1px solid #999; padding-top:5px;}
 #footer-cont .footer-links {position:relative; float:left; width:10%; height:50px; padding-top:15px;}
@@ -72,14 +76,18 @@ footer {background:url('/wp-content/images/header/white-linen.jpg'); position:fi
 .page-template-services-php #content article {padding:0px; margin-top:0px;}
 .page-template-services-php #content article .entry-header {display:none;}
 .page-template-services-php #content div {position:relative; float:left;}
-.page-template-services-php #content #services-cont {width:800px; margin-left:24px;}
-.page-template-services-php #content #services-cont .service-title {margin-left:25px; font-size:24px; height:45px; padding:0px; margin-top:0px;}
-.page-template-services-php #content #services-cont .entry-content {width:800px; height:200px; margin-bottom:20px;}
+.page-template-services-php #content #services-cont {width:800px; margin-left:24px; margin-bottom:50px;}
+.page-template-services-php #content #services-cont .service-title {margin-left:25px; font-size:24px; height:45px; padding:0px; margin-top:0px; color:#000;}
+.page-template-services-php #content #services-cont .entry-content {width:800px; color:#000;}
 .page-template-services-php #content #services-cont .entry-content .wpuf-attachments {display:none;}
 .page-template-services-php #content #services-cont .entry-content .service-img {height:100px; padding-top:50px; padding-bottom:50px; width:200px; 
-	text-align:center; background:#333;}
+	text-align:center; background:url('/wp-content/images/backgrounds/black-linen.jpg');
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;}
 .page-template-services-php #content #services-cont .entry-content .service-img img {position:relative;}
-.page-template-services-php #content #services-cont .entry-content .service-content {width:575px; margin-left:25px; height:145px;}
+.page-template-services-php #content #services-cont .entry-content .service-content {width:575px; margin-left:25px;}
 
 
 
@@ -96,12 +104,12 @@ footer {background:url('/wp-content/images/header/white-linen.jpg'); position:fi
 .page-template-ourwork-php .website-slideshow {height:375px; padding-top:0px; margin-top:25px;}
 .page-template-ourwork-php .website-slideshow #imac {position:absolute; left:0px; top:0px; z-index:5;}
 .page-template-ourwork-php .website-slideshow .imac-img {position:relative; float:left; margin-top:15px; margin-left:20px; 
-	width:415px; height:250px; z-index:1;}
+	width:415px; height:375px; z-index:1;}
 .page-template-ourwork-php .website-slideshow .imac-slide-caption {position:relative; float:left; height:300px; width:400px; margin-top:25px; margin-left:50px;}
 .page-template-ourwork-php .website-slideshow .imac-slide-caption div {position:relative; float:left;}
 
 .page-template-ourwork-php .website-slideshow #carousel {width:900px; height:375px; margin:0 auto;} 
-.page-template-ourwork-php .website-slideshow #slides {overflow:hidden; position:relative; width:900px; height:375px;}
+.page-template-ourwork-php .website-slideshow #slides {overflow:hidden; position:relative; width:900px; }
 .page-template-ourwork-php .website-slideshow #slides ul {position:relative; left:0; top:0; list-style:none; margin:0; padding:0; width:1600px;} 
 .page-template-ourwork-php .website-slideshow #slides li {width:900px; height:375px; float:left; color:#000;}
 .page-template-ourwork-php .website-slideshow #slides li img {padding:5px;}

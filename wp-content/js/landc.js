@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 	$('body').fadeIn(1000);
 
+
 	$('.header-nav a').mouseenter(function() {
 		$(this).children('img').show();
 		$(this).children('img.left-arrow').animate({'left':5},500);
@@ -36,6 +37,7 @@ $(document).ready(function() {
 	customImacSlideshow();
 	customPhotoSlideshow();
 	setContactInputVal();
+	hideExtraSlideImgs();
 
 
 
@@ -177,6 +179,14 @@ function setContactInputVal() {
 		}
 	});
 
+}
+
+function hideExtraSlideImgs() {
+	$('#imac-slideshow #slides li').each(function() {
+		if (!$(this).hasClass('index-0')) {
+			$(this).hide();
+		}
+ 	});
 }
 
 

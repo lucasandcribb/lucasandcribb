@@ -1,13 +1,97 @@
+@media screen and (max-width:835px) {
+	/*CONTACT PAGE*/
+	#contact-container {width:600px;}
+	.page-template-contact-php.one-column #content {width:280px; padding-bottom:20px; margin-left:10px;}
+	.page-template-contact-php #map-cont, #map_div {margin-top:0px; float:left; margin-left:10px;}
+	#contact-container .contact-title {font-size:22px;}
+
+	/*OUR WORK PAGE*/
+	.page-template-ourwork-php .website-slideshow #slides li, .page-template-ourwork-php .website-slideshow #slides ul,
+		.page-template-ourwork-php .website-slideshow #slides, .page-template-ourwork-php #mobile-slides, .page-template-ourwork-php #work-cont .entry-content,
+		.page-template-ourwork-php #work-cont {width:450px;}
+	.page-template-ourwork-php .website-slideshow #slides li,  #work-cont .website-slideshow {height:600px;}
+	.page-template-ourwork-php #mobile-slides li, #work-cont .mobile-slideshow {height:350px;}
+	#work-cont .mobile-slideshow {margin-top:-20px;  margin-bottom:100px;}
+	.page-template-ourwork-php .website-slideshow .imac-slide-caption {margin-top:0px; height:200px; margin-left:0px;}
+	.imac-descr, .mobile-descr, .photo-descr {margin-bottom:20px;}
+	.page-template-ourwork-php .mobile-slide-caption {margin-top:25px; width:200px;}
+	.photo-slideshow {display:none;}
+
+}
+
+@media screen and (max-width:835px) {
+	#hp-header .header-title {top:10px; left:70px;}
+	#hp-header .header-nav {top:30px; left:80px; height:45px; width:200px;}
+	#hp-header .header-nav a {position:relative; float:left; width:80px; padding-left:10px; padding-right:10px; text-align:center; height:20px;}
+	#content, .one-column #content {margin-left:25px;}
+	.focus-arrow {width:15px; top:3px;}
+	/*SERVICES PAGE*/
+	.page-template-services-php #content #services-cont {width:700px;}
+	.page-template-services-php #content #services-cont .entry-content {width:600px;}
+	.page-template-services-php #content #services-cont .service-title {height:35px; font-size:22px;}
+	.page-template-services-php #content #services-cont .entry-content .service-content {width:450px; font-size:14px;}
+	.page-template-services-php #content #services-cont .entry-content .service-img {width:125px; height:75px; padding-top:25px; padding-bottom:25px;}
+	.page-template-services-php #content #services-cont .entry-content .service-img img {width:75px;}
+	
+}
+
 @media screen and (max-width: 480px) {
 	#parallax-hp {min-width:480px !important;}
-	#scroll-container, #scroll-info, #parallax-hp footer {display:none;}
+	#scroll-container, #scroll-info, footer {display:none;}
 	#logo {position:fixed !important; top:20px !important; left:100px !important;}
 	#logo img {width:100px;}
 	#iphone-button-cont {display:block;}
 	#scroll-container {height:0px !important;}
+	#content, .one-column #content {margin-left:15px;}
+	#hp-header .header-title {font-size:14px;}
+	#hp-header .header-nav a {
+		-moz-border-radius: 5px;
+    	-webkit-border-radius: 5px;
+    	-khtml-border-radius: 5px;
+    	border-radius: 5px;}
+    /*SERVICES PAGE*/
+	.page-template-services-php #content #services-cont {margin-left:10px; width:450px;}
+	.page-template-services-php #content #services-cont .entry-content {width:450px;}
+	.page-template-services-php #content #services-cont .service-title {height:25px; font-size:18px; margin-left:15px;}
+	.page-template-services-php #content #services-cont .entry-content .service-content {width:300px; font-size:12px; margin-left:15px;}
+	.page-template-services-php #content #services-cont .entry-content .service-img {width:80px; height:50px; padding-top:15px; padding-bottom:15px;}
+	.page-template-services-php #content #services-cont .entry-content .service-img img {width:40px;}
+	/*CONTACT PAGE*/
+	#contact-container {width:400px;}
+	.page-template-contact-php.one-column #content {width:280px; padding-bottom:20px; margin-left:10px;}
+	.page-template-contact-php #map-cont, #map_div {margin-top:0px; float:left; margin-left:10px;}
+	#contact-container .contact-title {font-size:22px;}
+	
 }
 
 @media screen and (max-width:320px) {
+	#hp-header .header-title {font-size:14px;}
+	#hp-header .header-nav a {font-size:12px;}
 	#parallax-hp {min-width:320px !important;}
 	#iphone-button-cont {margin-left:30px; margin-top:200px;}
+	#content, .one-column #content {margin-left:0px;}
+	/*SERVICES PAGE*/
+	.page-template-services-php #content #services-cont {margin-left:10px; width:285px;}
+	.page-template-services-php #content #services-cont .entry-content {width:300px;}
+	.page-template-services-php #content #services-cont .service-title {height:20px; font-size:14px; margin-left:5px;}
+	.page-template-services-php #content #services-cont .entry-content .service-content {width:200px; font-size:10px; margin-left:5px;}
+	.page-template-services-php #content #services-cont .entry-content .service-img {width:50px; height:40px; padding-top:5px; padding-bottom:5px;}
+	.page-template-services-php #content #services-cont .entry-content .service-img img {width:30px;}
+	/*CONTACT PAGE*/
+	#contact-container {width:280px;}
+	.page-template-contact-php #content article {width:280px;}
+	.page-template-contact-php.one-column #content {width:280px; padding-bottom:20px; margin-left:0px;}
+	.page-template-contact-php #map-cont, #map_div {margin-top:0px; float:left; margin-left:0px;}
+	#contact-container .contact-title {font-size:18px; width:280px;}
+	#contact-form {width:280px; height:400px;}
+	#contact-form-title {font-size:20px;}
+	#contact-form #contact-form-left, #contact-form #contact-form-right {width:260px; text-align:center;}
+	#contact-form #contact-form-mssg {width:280px;}
+	#contact-form #contact-form-mssg textarea {width:255px;}
+	#contact-form #contact-button input.wpcf7-submit {bottom:-2px;}
+	.page-template-contact-php #map-cont, #map_div {width:280px; height:350px; margin-right:0px;}
 }
+
+
+
+

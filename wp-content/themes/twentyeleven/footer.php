@@ -16,7 +16,7 @@
 		<div id="footer-cont">
 			<div class="footer-links">
 				<a href="/">About</a>
-				<a href="/services/">Services</a>
+				<a href="/our-services/">Services</a>
 			</div>
 			<div class="footer-links">
 				<a href="/our-work/">Our Work</a>

@@ -181,7 +181,7 @@ Template Name: Parallax Homepage
 	</div>
 
 	<div id="iphone-button-cont">
-		<a href="/services"><div class="iphone-button">Services</div></a>
+		<a href="/our-services"><div class="iphone-button">Services</div></a>
 		<a href="/our-work"><div class="iphone-button">Our Work</div></a>
 		<a href="/contact"><div class="iphone-button">Contact</div></a>
 	</div>
