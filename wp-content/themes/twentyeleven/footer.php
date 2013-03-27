@@ -33,8 +33,10 @@
 
 			<div id="footer-contact-info">
 				<span>Lucas &amp Cribb Digital Developers, LLC</span></br>
-				20 Addlestone Ave</br>
-				Charleston, SC 29403</br>
+				<span id="footer-addr">
+					20 Addlestone Ave</br>
+					Charleston, SC 29403</br>
+				</span>	
 				(843) 425-1439</br>
 				<a href="mailto:info@lucasandcribb.com">info@lucasandcribb.com</a>
 			</div>
