@@ -92,7 +92,7 @@
 				<a href="/"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
 			</div>
 
-			<div id="landing-mssg">Full Site Coming Soon...</div>
+			<div id="landing-mssg"><span>Lucas &amp Cribb Digital Developers</span></br>Full Site Coming Soon...</div>
 		</div>
 
 

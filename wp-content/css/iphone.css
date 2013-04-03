@@ -74,7 +74,8 @@
 	.page-template-contact-php.one-column #content {width:280px; padding-bottom:20px; margin-left:10px;}
 	.page-template-contact-php #map-cont, #map_div {margin-top:0px; float:left; margin-left:10px;}
 	#contact-container .contact-title {font-size:22px;}
-
+	.page-template-landing-php #landing-mssg {font-size:18px;}
+	.page-template-landing-php #landing-mssg span {font-size:14px;}
 }
 
 @media screen and (max-width:320px) {
