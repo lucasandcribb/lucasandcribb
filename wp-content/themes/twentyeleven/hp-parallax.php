@@ -75,19 +75,31 @@ Template Name: Parallax Homepage
 	</div>
 
 	<div id="hp-header">
-		<img class="small-logo" src="/wp-content/images/header/logo-black.png" />
-		<div class="header-title">Lucas &amp Cribb Digital Developers</div>
+		<a href="/" ><img class="small-logo" src="/wp-content/images/header/logo-black.png" /></a>
+		<div class="header-title"><a href="/" >Lucas &amp Cribb Digital Developers</a></div>
 		<div class="header-nav">
 			<a href="/contact"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Contact<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
 			<a href="/our-work"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Our Work<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-			<a href="/services"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Services<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-			<a href="/"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+			<a href="/our-services"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Services<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+			<a href="/about"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
 		</div>
 	</div>
 	<div id="logo">
 		<a href="/">
 			<img id="logo-img" src="/wp-content/images/header/logo-black.png" />
 		</a>
+	</div>
+
+	<div id="services-info-one">
+		<div class="service-section-body-one">
+			<img id="service-img-design" class="service-info-img-one" src="/wp-content/images/parallax/info/services-design.png" />
+			<img id="service-img-dev" class="service-info-img-one" src="/wp-content/images/parallax/info/services-dev.png" />
+			<img id="service-img-mob" class="service-info-img-one" src="/wp-content/images/parallax/info/services-mobile.png" />
+			<img id="service-img-mgmt" class="service-info-img-one" src="/wp-content/images/parallax/info/services-mgmt.png" />
+			<img id="service-img-host" class="service-info-img-one" src="/wp-content/images/parallax/info/services-host.png" />
+			<img id="service-img-photo" class="service-info-img-one" src="/wp-content/images/parallax/info/services-photo.png" />
+		<!-- <img class="service-info-img" src="/wp-content/images/parallax/info/services-img.png" /> -->
+		</div>
 	</div>
 	
 	<div id="scroll-container">

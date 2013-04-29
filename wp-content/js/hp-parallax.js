@@ -23,8 +23,6 @@ $(document).ready(function() {
 			var newScrollInfoTop = 10 - (scrollNum/25),
 				newArrowTop = 0 - (scrollNum/20);
 			$('#scroll-info').css({'top':newScrollInfoTop});
-			$('img.left-arrow').css({'top':newArrowTop});
-			$('img.right-arrow').css({'top':newArrowTop});
 		}
 
 		if (scrollNum > 0 && scrollNum <= 800) {

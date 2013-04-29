@@ -44,13 +44,13 @@
 			<div id="footer-social-links">
 				<span>Tell Your Friends</span>
 				<div class="footer-links social-media">
-					<a class="facebook" href="#">
+					<a class="facebook" href="http://www.facebook.com/sharer.php?&u=<?php echo get_site_url(); ?>" target="_blank">
 						<img class="f-white" src="/wp-content/images/footer/black-f.png" />
 						<img class="f-grey" src="/wp-content/images/footer/red-f.png" />
 					</a>
 				</div>
 				<div class="footer-links social-media">
-					<a class="twitter" href="#">
+					<a class="twitter" href="http://www.twitter.com/share?text=&url=<?php echo get_site_url(); ?>" target="_blank">
 						<img class="t-white" src="/wp-content/images/footer/black-twitter.png" />
 						<img class="t-grey" src="/wp-content/images/footer/red-twitter.png" />
 					</a>

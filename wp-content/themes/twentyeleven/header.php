@@ -88,6 +88,10 @@
 
 </script>
 
+<meta property="og:image" og:title="Lucas &amp Cribb Digital Developers" 
+	og:url="http://lucasandcribb.com" content="http://lucasandcribb.com/wp-content/images/header/logo-black.png"/>
+<link rel="image_src" href="http://lucasandcribb.com/wp-content/images/header/logo-black.png"/>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -97,13 +101,13 @@
 <div id="page" class="hfeed">
 
 		<div id="hp-header">
-			<img class="small-logo" src="/wp-content/images/header/logo-black.png" />
-			<div class="header-title">Lucas &amp Cribb Digital Developers</div>
+			<a href="/"><img class="small-logo" src="/wp-content/images/header/logo-black.png" /></a>
+			<div class="header-title"><a href="/">Lucas &amp Cribb Digital Developers</a></div>
 			<div class="header-nav">
 				<a href="/contact"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Contact<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
 				<a href="/our-work"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Our Work<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
 				<a href="/our-services"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Services<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-				<a href="/"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+				<a href="/about"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
 			</div>
 
 			<div id="landing-mssg"><span>Lucas &amp Cribb Digital Developers</span></br>Full Site Coming Soon...</div>
