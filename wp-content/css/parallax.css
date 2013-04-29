@@ -59,9 +59,14 @@
 #News_Feed {width:100%; height:100%;}
 #News_Feed ul {margin:0px; padding:5px;}
 #News_Feed ul li {margin-bottom:5px;}
-#News_Feed ul li h2.widgettitle {width:100%; background:url('/wp-content/images/backgrounds/white-linen.jpg');}
+#News_Feed ul li h2.widgettitle {width:98%; background:url('/wp-content/images/backgrounds/white-linen.jpg'); padding-left:5px; color:#000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
 #News_Feed ul li h2.widgettitle a {color:#000;}
-#News_Feed ul li ul li a.rsswidget {color:#790000; width:100%; position:relative; float:left;}
+#News_Feed ul li ul li a.rsswidget {color:#000; width:100%; position:relative; float:left;}
 
 .info-page-section {position:relative; float:left; margin-left:25px; margin-top:20px; width:700px; height:100px;}
 
