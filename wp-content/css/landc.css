@@ -204,8 +204,9 @@ span.wpcf7-not-valid-tip {position:absolute; text-align:left; left:2px; top:-23p
 
 
 
-
-
+.singular .entry-title, .assistive-text, #content nav a, .entry-date {color:#333;}
+.entry-content {color:#666;}
+#comments, .assistive-text, #content nav a {display:none;}
 
 
 
