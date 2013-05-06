@@ -104,10 +104,10 @@
 			<a href="/"><img class="small-logo" src="/wp-content/images/header/logo-black.png" /></a>
 			<div class="header-title"><a href="/">Lucas &amp Cribb Digital Developers</a></div>
 			<div class="header-nav">
-				<a href="/contact"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Contact<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-				<a href="/our-work"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Our Work<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-				<a href="/our-services"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />Services<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
-				<a href="/about"><img class="left-arrow focus-arrow" src="/wp-content/images/header/rightarrow.png" />About<img class="right-arrow focus-arrow" src="/wp-content/images/header/leftarrow.png" /></a>
+				<a href="/contact">Contact</a>
+				<a href="/our-work">Our Work</a>
+				<a href="/our-services">Services</a>
+				<a href="/about">About</a>
 			</div>
 
 			<div id="landing-mssg"><span>Lucas &amp Cribb Digital Developers</span></br>Full Site Coming Soon...</div>

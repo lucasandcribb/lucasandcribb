@@ -2,18 +2,6 @@ $(document).ready(function() {
 
 	$('body').fadeIn(1000);
 
-
-	$('.header-nav a').mouseenter(function() {
-		$(this).children('img').show();
-		$(this).children('img.left-arrow').animate({'left':5},500);
-		$(this).children('img.right-arrow').animate({'right':5},500);
-	}).mouseleave(function() {
-		$('.focus-arrow').hide();
-		$(this).children('img.left-arrow').css({'left':0});
-		$(this).children('img.right-arrow').css({'right':0});
-	});
-
-
 	$('.service-content .wpuf-attachments').each(function() {
 		$(this).remove();
 	});
@@ -34,15 +22,20 @@ $(document).ready(function() {
 		$('.f-white').show();
 	});
 
+	var count = 1;
+	$('.check').each(function() {
+		var id = $(this).attr('id');
+		var c = 'check-'+count;
+		if (id == c) {
+			$(this).delay(count * 1000).fadeIn();
+		}
+		count++;
+	});
+
 	customImacSlideshow();
 	customPhotoSlideshow();
 	setContactInputVal();
 	hideExtraSlideImgs();
-
-
-
-
-
 
 });
 

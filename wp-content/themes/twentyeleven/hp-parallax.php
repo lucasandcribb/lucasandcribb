@@ -106,7 +106,7 @@ Template Name: Parallax Homepage
 		<div id="hp-slider-page">
 			<div id="hp-slider">
 				<div id="hp-slider-title">Visit "<a href="/our-work">Our Work</a>" to See More</div>
-				<?php echo do_shortcode('[portfolio_slideshow id=4]');?>
+				<?php echo do_shortcode('[portfolio_slideshow id=4 slideheight=400]');?>
 			</div>
 		</div>
 	
