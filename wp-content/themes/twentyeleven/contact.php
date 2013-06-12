@@ -28,7 +28,7 @@ Template Name: Contact
 		<div id="map_div"></div>
 		<script>
 			//GOOGLE MAPS//
-			var latlng = new google.maps.LatLng(32.800891,-79.959234);
+            var latlng = new google.maps.LatLng(32.921567,-80.125046);
 			var options = {
     			zoom: 15, // This number can be set to define the initial zoom level of the map
     			center: latlng,
@@ -45,7 +45,7 @@ Template Name: Contact
  			);
  			// Add Marker
  			var marker1 = new google.maps.Marker({
-    		 	position: new google.maps.LatLng(32.800891,-79.959234),
+    		 	position: new google.maps.LatLng(32.921567,-80.125046),
     		 	map: map,
     		 	icon: image // This path is the custom pin to be shown. Remove this line and the proceeding comma to use default pin
  			});
@@ -54,7 +54,7 @@ Template Name: Contact
     		});
 		
     		var infowindow1 = new google.maps.InfoWindow({
-    		    content:  createInfo('<div id="bublble-title">Lucas & Cribb Digital Developers</div>', '<div id="bubble-addr-1">20 Addlestone Ave</div><div id="bubble-addr-2">Charleston, SC 29403</div><div id="bubble-phone">(843) 425-1439</div>')
+    		    content:  createInfo('<div id="bublble-title">Lucas & Cribb Digital Developers</div>', '<div id="bubble-addr-1">5436 Altamaha Drive</div><div id="bubble-addr-2">North Charleston, SC 29420</div><div id="bubble-phone">(843) 425-1439</div>')
     		});
 			function createInfo(title, content) {
     		    return '<div class="infowindow"><strong>'+ title +'</strong>'+content+'</div>';
