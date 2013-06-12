@@ -210,6 +210,8 @@ footer {background:url('/wp-content/images/header/white-linen.jpg'); position:re
 .page-template-contact-php #content article .entry-meta {display:none;}
 
 .contact-title {font-family:'Hoefler Text'; font-size:26px;}
+#contact-mailto {color:#333;}
+#contact-mailto:hover {color:#000;}
 
 .page-template-contact-php #map-cont, #map_div {position:relative; float:right; width:400px; margin-right:50px; text-align:center; height:550px;
 	border:1px solid #000; margin-bottom:50px; margin-top:125px;}
