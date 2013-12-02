@@ -1,0 +1,11 @@
+/*#main_menu nav ul#nav_menu li.blob {border-bottom:1px solid #000000;}*/
+
+/* HOMEPAGE */
+.container .one h1.header {font-size:40px;}
+.container .one h1.header, .container .one h2.summary {letter-spacing:5px}
+.footer {background:#262626;}
+.one_third .button.read:hover {background-color:#ff0000;}
+
+
+/* ABOUT */ 
+.container .symple-column.symple-one-third {text-align:center;}
